@@ -1,4 +1,4 @@
-// Sums the positive numbers only. (Bug: negative numbers should count too.)
+// Sums all numbers, including negative ones.
 export function sum(numbers) {
-  return numbers.filter(n => n > 0).reduce((total, n) => total + n, 0)
+  return numbers.reduce((total, n) => total + n, 0)
 }
