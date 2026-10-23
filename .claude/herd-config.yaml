@@ -1,0 +1,8 @@
+source:
+  github:
+    repo: aleslanger/herd-e2e
+limits:
+  max_parallel_issues: 2
+bootstrap:
+  shadow_mode:
+    enabled_by_default: false
